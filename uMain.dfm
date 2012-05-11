@@ -30,9 +30,6 @@ object frmMain: TfrmMain
     Color = clBlack
     ParentBackground = False
     TabOrder = 0
-    ExplicitTop = 54
-    ExplicitWidth = 637
-    ExplicitHeight = 242
     object imgMain: TImage
       Left = 1
       Top = 1
@@ -999,8 +996,6 @@ object frmMain: TfrmMain
     Margins.Bottom = 4
     Align = alBottom
     TabOrder = 1
-    ExplicitTop = 309
-    ExplicitWidth = 637
     object imgY: TImage
       Left = 1
       Top = 1
@@ -1968,7 +1963,6 @@ object frmMain: TfrmMain
     Color = clSilver
     ParentBackground = False
     TabOrder = 2
-    ExplicitWidth = 623
     DesignSize = (
       613
       56)
@@ -2273,8 +2267,6 @@ object frmMain: TfrmMain
     Margins.Bottom = 4
     Align = alBottom
     TabOrder = 3
-    ExplicitTop = 462
-    ExplicitWidth = 637
     object imgX: TImage
       Left = 1
       Top = 1
@@ -3241,8 +3233,6 @@ object frmMain: TfrmMain
     Align = alBottom
     Smooth = True
     TabOrder = 4
-    ExplicitTop = 288
-    ExplicitWidth = 637
   end
   object openDialog: TOpenDialog
     DefaultExt = '*.svg'
