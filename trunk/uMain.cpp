@@ -220,7 +220,8 @@ void __fastcall TfrmMain::BreakAxis()
 		//double x = points.at(idx + 1).x + grad * (points.at(idx + 1).x - points.at(i).x);
 
 		axis_x.push_back(x);
-		axis_y.push_back(-(y));
+		//axis_y.push_back(-(y));
+		axis_y.push_back(y);
 
 		time = time + timeStep;
 		if (time > lim_sup) {
@@ -402,7 +403,7 @@ void __fastcall TfrmMain::DrawPoints(void)
 		can->MoveTo(x, y);
 		for (unsigned int i = 1; i < axis_y.size(); i++) {
 			y = axis_y.at(i);
-			y = h - (y * h/200 + h/2);
+			y = /*h - */(y * h/200 + h/2);
 			x = i * w / axis_y.size();
 			can->LineTo(x, y);
 		}
