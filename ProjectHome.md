@@ -1,0 +1,1 @@
+Rabiscoscopio gets an SVG image and generates a sound wave file that represents the curves inside that image. When you play that sound on a device connected to a oscilloscope, you can see that image on the oscilloscope screen.
